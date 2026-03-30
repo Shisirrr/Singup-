@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+</head>
+<body>
+
+    <!-- SINGUP PAGE  -->
+
+    <link rel="stylesheet" href="style.css">
+    <div class = "signup">
+        <h1>Signup</h1>
+        <form onsubmit="return passwordMatch()" name="signup" class = "signup-form" >
+            <input type  = "text" name = "full_name" placeholder="Full Name" required><br>
+            <input type="text" name="username" placeholder="Username" required><br>
+            <input type="email" name="email" placeholder="Email" required><br>
+            <input type="password" name="password" placeholder="Password" id="password" required><br>
+            <input type="password" name="confirm_password" placeholder="Confirm Password" id="confirm_password" required><br>
+            <input type="submit" value="Signup">
+        </form>
+    </div>
+   <script src="script.js"></script>
+</body>
+</html>

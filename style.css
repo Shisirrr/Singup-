@@ -1,0 +1,86 @@
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+                                          /* SINGUP PAGE  */
+
+
+h1 {
+    letter-spacing: 3px;
+    text-shadow: 0 0 10px rgba(0, 188, 212, 0.8); /* cyan glow on text */
+}
+form {
+    box-shadow: 0 0 20px rgba(0, 188, 212, 0.3); /* cyan glow */
+    backdrop-filter: blur(5px);                   /* frosted glass effect */
+}
+
+div{
+    background-color: rgba(91, 149, 216, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(91, 149, 216, 0.1);
+}
+
+form input {
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #00bcd4;       /* cyan border to match your bg */
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: transparent;   /* see-through */
+    color: #fff;                      /* white text */
+    outline: none;
+    
+}
+
+form input::placeholder {
+    color: #aaa;                      /* placeholder text color */
+}
+
+form input:focus {
+    border-color: #00e5ff;            /* glows cyan when clicked */
+}
+
+form button {
+    background: linear-gradient(to right, #00bcd4, #0097a7);
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background: linear-gradient(to right, #0097a7, #00bcd4);
+    box-shadow: 0 0 15px rgba(0, 188, 212, 0.6); /* glows on hover */
+    transform: scale(1.02);                        /* slight grow effect */
+}
+
+form input {
+    transition: all 0.3s ease;
+}
+
+form input:focus {
+    transform: scaleX(1.02);
+    box-shadow: 0 0 8px rgba(0, 188, 212, 0.5);
+}
+
+div:hover {
+    box-shadow: 0 0 20px rgba(91, 149, 216, 0.3), 0 0 30px rgba(91, 149, 216, 0.2);
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+    
+}
